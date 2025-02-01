@@ -1,3 +1,4 @@
+
 .card {
   max-width: 413px;
   padding-bottom: 40px;
@@ -27,9 +28,6 @@
   object-fit: cover;
   border-radius: 10px;
   display: block;
-}
-
-.card__image {
   cursor: pointer;
 }
 
@@ -77,7 +75,7 @@
   background-image: url(../images/like_icon_liked-hover.svg);
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 627px) {
   .card {
     padding: 0;
   }
@@ -90,3 +88,4 @@
     font-size: 16px;
   }
 }
+
